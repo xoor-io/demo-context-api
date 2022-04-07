@@ -1,0 +1,15 @@
+.DummyComponent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid black;
+  padding: 30px;
+  position: relative;
+}
+
+.DummyComponent__Title {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 10px;
+}

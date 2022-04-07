@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.App.theme-light {
+  background-color: #EEFFFF;
+}
+
+.App.theme-dark {
+  background-color: #232323;
+}
