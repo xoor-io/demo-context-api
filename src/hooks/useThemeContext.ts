@@ -7,7 +7,7 @@ export const useThemeContext = (): IThemeContext => {
   const context = useContext<IThemeContext>(ThemeContext);
 
   if (context === undefined) {
-    throw new Error('useGrid must be used within the GridProvider');
+    throw new Error('useThemeContext must be used within the ThemeProvider');
   }
 
   return context;
